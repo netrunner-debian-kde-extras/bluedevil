@@ -1,0 +1,94 @@
+This work was packaged for Debian by:
+
+    George Kiagiadakis <kiagiadakis.george@gmail.com> on Wed, 28 Jul 2010 18:45:52 +0300
+
+It was downloaded from:
+
+    http://gitorious.org/bluedevil
+
+Upstream Authors:
+
+    Alejandro Fiestas Olivares
+    Eduardo Robles Elvira
+    Rafael Fernández López
+    Aleix Pol Gonzalez
+
+Copyright:
+
+    © 2010 UFO Coders <info@ufocoders.com>
+    © 2010 Alejandro Fiestas Olivares <alex@ufocoders.com> <alex@eyeos.org>
+    © 2010 Eduardo Robles Elvira <edulix@gmail.com>
+    © 2010 Rafael Fernández López <ereslibre@kde.org>
+    © 2010 Aleix Pol Gonzalez
+
+License:
+
+    Files under the GNU General Public License version 3 or later (GPL-3+):
+
+        src/actionplugins/actionplugin.cpp
+        src/actionplugins/actionplugin.h
+        src/actionplugins/audio/helper/audiohelper.cpp
+        src/actionplugins/audio/helper/audiohelper.h
+        src/actionplugins/input/helper/inputhelper.cpp
+        src/actionplugins/input/helper/inputhelper.h
+        src/actionplugins/sendfile/helper/sendfilewizard.cpp
+        src/actionplugins/sendfile/helper/sendfilewizard.h
+        src/kio/obextest/main.cpp
+        src/monolithic/main.cpp
+        src/monolithic/monolithic.cpp
+        src/monolithic/monolithic.h
+        src/wizard/bluewizard.cpp
+        src/wizard/bluewizard.h
+        src/wizard/pages/*
+
+    On Debian systems, the complete text of the
+    GNU General Public License version 3 can be found in
+    /usr/share/common-licenses/GPL-3
+
+
+    Files under the GNU Library General Public License version 2 or later (LGPL-2+):
+
+        src/kio/bluetooth/kiobluetooth.cpp
+        src/kio/bluetooth/kiobluetooth.h
+        src/kio/obexftp/types.h
+        src/kio/obextest/types.h
+
+    On Debian systems, the complete text of the
+    GNU Library General Public License version 2 can be found in
+    /usr/share/common-licenses/LGPL-2
+
+
+    Files under the BSD license:
+
+        cmake/modules/FindLibBlueDevil.cmake
+
+    On Debian systems, the complete text of the BSD license
+    can be found in /usr/share/common-licenses/BSD
+
+
+    All other files are licenced under the GNU General Public License
+    version 2 or later (GPL-2+). On Debian systems, the complete text
+    of the GNU General Public License version 2 can be found in
+    /usr/share/common-licenses/GPL-2
+
+
+    Effectively, this package is licensed under the terms of the
+    GNU General Public License version 3 or later (GPL-3+):
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+
+and is licensed under the GNU General Public License version 2 or later,
+see "/usr/share/common-licenses/GPL-2".

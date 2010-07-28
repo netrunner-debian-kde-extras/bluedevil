@@ -1,0 +1,26 @@
+Source: bluedevil
+Section: net
+Priority: extra
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev (>= 1.7), kdelibs5-dev
+Standards-Version: 3.9.1
+Homepage: http://gitorious.org/bluedevil
+Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/bluedevil.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/bluedevil.git;a=summary
+
+Package: bluedevil
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The KDE bluetooth stack.
+ BlueDevil is a set of components which integrate bluetooth in KDE.
+ It contains:
+  * A KDE Control Module (KCM) to configure all the bluetooth-related options.
+  * Integration with the KDE input/output system (KIO), which allows you to
+    discover and explore bluetooth devices from your favorite file browser.
+  * A wizard to pair your devices and connect directly to services they offer,
+    such as input (mouse, keybaord, Wiimote) and audio (headsets, phones).
+  * A system tray application from where all BlueDevil actions can be done
+    (disconnect devices, send files, configure, etc...)
+  * A daemon to listen incoming petitions, for example to receive files
+    or to introduce a requested PIN.
