@@ -1,3 +1,10 @@
+Author: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Description: Modifies CMakeLists.txt so that libbluedevilaction.so
+ is installed in a subdirectory of /usr/lib, as recommended by the
+ Debian policy and sets RPATH for everything that uses this library.
+ In addition, the command to install actionplugin.h is removed.
+Forwarded: not-needed
+
 --- a/src/actionplugins/CMakeLists.txt
 +++ b/src/actionplugins/CMakeLists.txt
 @@ -6,6 +6,5 @@

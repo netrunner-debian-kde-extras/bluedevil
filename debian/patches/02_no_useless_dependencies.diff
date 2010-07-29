@@ -1,3 +1,8 @@
+Author: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Description: Do not search for KDE4Workspace, since it is not used.
+ Requires patch 01_no_useless_linking.diff to be applied too.
+Forwarded: no
+
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -1,5 +1,4 @@

@@ -1,3 +1,8 @@
+Author: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Description: Modify CMakeLists.txt to avoid linking with libraries
+ that are not actually used.
+Forwarded: no
+
 --- a/src/daemon/kded/CMakeLists.txt
 +++ b/src/daemon/kded/CMakeLists.txt
 @@ -17,7 +17,6 @@
