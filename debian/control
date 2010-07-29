@@ -3,7 +3,7 @@ Section: net
 Priority: extra
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: George Kiagiadakis <kiagiadakis.george@gmail.com>
-Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev (>= 1.7), kdelibs5-dev
+Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev (>= 1.7), kdelibs5-dev (>= 4.4), kdebase-workspace-dev (>= 4.4)
 Standards-Version: 3.9.1
 Homepage: http://gitorious.org/bluedevil
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/bluedevil.git
