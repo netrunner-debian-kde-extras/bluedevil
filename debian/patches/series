@@ -1,2 +1,3 @@
 01_no_useless_linking.diff
 02_no_useless_dependencies.diff
+03_libbluedevilaction_is_private.diff
