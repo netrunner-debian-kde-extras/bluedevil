@@ -41,7 +41,7 @@ Forwarded: not-needed
 @@ -12,6 +12,7 @@
  kde4_add_plugin(sendfile ${sendfile_SRCS})
  
- target_link_libraries(sendfile ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTCORE_LIBRARY} bluedevilaction bluedevil)
+ target_link_libraries(sendfile ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTCORE_LIBRARY} bluedevilaction ${LibBlueDevil_LIBRARIES})
 +set_target_properties(sendfile PROPERTIES INSTALL_RPATH ${LIB_INSTALL_DIR}/bluedevil)
  
  install(TARGETS sendfile DESTINATION ${PLUGIN_INSTALL_DIR})
