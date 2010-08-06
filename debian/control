@@ -11,7 +11,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/bluedevil.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/bluedevil.git;a=summary
 
 Package: bluedevil
-Architecture: any
+Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}, bluez, obexd-client, obex-data-server
 Suggests: pulseaudio-module-bluetooth | bluez-alsa
 Description: The KDE bluetooth stack
