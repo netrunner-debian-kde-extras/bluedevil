@@ -1,5 +1,6 @@
-bluedevil (1.0~rc2-1) UNRELEASED; urgency=low
+bluedevil (1.0~rc2-1) unstable; urgency=low
 
+  [ George Kiagiadakis ]
   * Initial release. (Closes: #590694)
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 06 Aug 2010 12:18:26 +0300
+ -- Mark Purcell <msp@debian.org>  Sat, 07 Aug 2010 09:04:19 +1000
