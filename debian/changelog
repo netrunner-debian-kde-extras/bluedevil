@@ -1,3 +1,9 @@
+bluedevil (1.0~rc2-2) UNRELEASED; urgency=low
+
+  * Add transitional kbluetooth and kdebluetooth packages.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 05 Sep 2010 14:10:54 +0300
+
 bluedevil (1.0~rc2-1) unstable; urgency=low
 
   [ George Kiagiadakis ]
