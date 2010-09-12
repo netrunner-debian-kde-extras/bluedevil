@@ -1,10 +1,10 @@
-bluedevil (1.0~rc3-1) UNRELEASED; urgency=low
+bluedevil (1.0~rc3-1) unstable; urgency=low
 
   * New upstream release candidate.
   * Add transitional kbluetooth and kdebluetooth packages.
   * Refresh patch 01_libbluedevilaction_is_private.diff.
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 05 Sep 2010 15:38:24 +0300
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Sep 2010 14:12:05 +0300
 
 bluedevil (1.0~rc2-1) unstable; urgency=low
 
