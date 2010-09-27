@@ -35,12 +35,3 @@ Description: dummy transition package for kdebluetooth to bluedevil
  bluedevil. You can safely remove it if you want.
  .
  It can also be removed from the Debian package once squeeze is released.
-
-Package: kbluetooth
-Architecture: all
-Depends: bluedevil, ${misc:Depends}
-Description: dummy transition package for kbluetooth to bluedevil
- This is a dummy package to help on the transition from kbluetooth to
- bluedevil. You can safely remove it if you want.
- .
- It can also be removed from the Debian package once squeeze is released.
