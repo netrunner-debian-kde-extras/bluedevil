@@ -1,5 +1,8 @@
 #!/usr/bin/make -f
 
+# add epoch 1 to the kdebluetooth package
+KDEBLUETOOTH_VERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: /1:/')
+
 override_dh_auto_configure:
 	dh_auto_configure --buildsystem=kde -- \
 			-DCMAKE_SHARED_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed" \
@@ -7,7 +10,7 @@ override_dh_auto_configure:
 			-DCMAKE_EXE_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed"
 
 override_dh_gencontrol:
-	dh_gencontrol -pkdebluetooth -- -v1:0.4.2-3+obsolete
+	dh_gencontrol -pkdebluetooth -- -v$(KDEBLUETOOTH_VERSION)
 	dh_gencontrol -pbluedevil
 
 %:

@@ -2,6 +2,8 @@ bluedevil (1.0~rc3-2) unstable; urgency=low
 
   * Remove the kbluetooth transitional package upon request by the release
     team, to unblock bluedevil's transition into squeeze.
+  * Change kdebluetooth's version to be the same as bluedevil's
+    but with epoch 1 and generated from debian/changelog automatically.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 27 Sep 2010 20:54:51 +0300
 
