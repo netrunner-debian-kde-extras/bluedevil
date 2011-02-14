@@ -6,7 +6,7 @@ Uploaders: Florian Reinhard <florian.reinhard@googlemail.com>, George Kiagiadaki
 Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev (>= 1.7),
  kdelibs5-dev (>= 4.4), shared-mime-info
 Standards-Version: 3.9.1
-Homepage: http://gitorious.org/bluedevil
+Homepage: https://projects.kde.org/projects/extragear/base/bluedevil
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/bluedevil.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/bluedevil.git;a=summary
 
