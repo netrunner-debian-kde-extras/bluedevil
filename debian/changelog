@@ -1,3 +1,9 @@
+bluedevil (1.0.2-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 14 Feb 2011 22:05:04 +0200
+
 bluedevil (1.0~rc3-2) unstable; urgency=low
 
   * Remove the kbluetooth transitional package upon request by the release
