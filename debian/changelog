@@ -1,6 +1,6 @@
 bluedevil (1.0.2-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release. (Closes: #603330)
   * Drop the kdebluetooth transitional package.
     This was only for squeeze.
   * Update homepage.
