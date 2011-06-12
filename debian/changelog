@@ -5,6 +5,9 @@ bluedevil (1.1-1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Spell correctly "Bluetooth" in descriptions. (Closes: #627258)
 
+  [ George Kiagiadakis ]
+  * Bump standards-version to 3.9.2; no changes required.
+
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Jun 2011 16:38:52 +0300
 
 bluedevil (1.0.3-1) unstable; urgency=low
