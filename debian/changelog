@@ -8,6 +8,7 @@ bluedevil (1.1-1) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * Bump standards-version to 3.9.2; no changes required.
   * Refresh patches.
+  * Update debian/copyright.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Jun 2011 16:38:52 +0300
 

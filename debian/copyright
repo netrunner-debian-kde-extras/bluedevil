@@ -15,11 +15,12 @@ Upstream Authors:
 
 Copyright:
 
-    © 2010 UFO Coders <info@ufocoders.com>
-    © 2010 Alejandro Fiestas Olivares <alex@ufocoders.com> <alex@eyeos.org>
+    © 2010-2011 UFO Coders <info@ufocoders.com>
+    © 2010-2011 Alejandro Fiestas Olivares <alex@ufocoders.com> <alex@eyeos.org>
     © 2010 Eduardo Robles Elvira <edulix@gmail.com>
     © 2010 Rafael Fernández López <ereslibre@kde.org>
     © 2010 Aleix Pol Gonzalez
+    © 2011 Aurélien Gâteau <agateau@kde.org>
 
 License:
 
@@ -31,15 +32,20 @@ License:
         src/actionplugins/audio/helper/audiohelper.h
         src/actionplugins/input/helper/inputhelper.cpp
         src/actionplugins/input/helper/inputhelper.h
-        src/actionplugins/sendfile/helper/sendfilewizard.cpp
-        src/actionplugins/sendfile/helper/sendfilewizard.h
+        src/daemon/obexftpkded/obexsession.cpp
+        src/daemon/obexftpkded/obexsession.h
         src/kio/obextest/main.cpp
         src/monolithic/main.cpp
         src/monolithic/monolithic.cpp
         src/monolithic/monolithic.h
         src/wizard/bluewizard.cpp
         src/wizard/bluewizard.h
-        src/wizard/pages/*
+        src/wizard/pages/discoverpage.cpp
+        src/wizard/pages/discoverpage.h
+        src/wizard/pages/serviceoption.cpp
+        src/wizard/pages/serviceoption.h
+        src/wizard/pages/servicespage.cpp
+        src/wizard/pages/servicespage.h
 
     On Debian systems, the complete text of the
     GNU General Public License version 3 can be found in
@@ -48,14 +54,37 @@ License:
 
     Files under the GNU Library General Public License version 2 or later (LGPL-2+):
 
+        src/actionplugins/sendfile/*
         src/kio/bluetooth/kiobluetooth.cpp
         src/kio/bluetooth/kiobluetooth.h
         src/kio/obexftp/types.h
         src/kio/obextest/types.h
+        src/wizard/pages/fail.cpp
+        src/wizard/pages/fail.h
+        src/wizard/pages/keyboardpairing.cpp
+        src/wizard/pages/keyboardpairing.h
+        src/wizard/pages/legacypairing.cpp
+        src/wizard/pages/legacypairing.h
+        src/wizard/pages/legacypairingdatabase.cpp
+        src/wizard/pages/legacypairingdatabase.h
+        src/wizard/pages/nopairing.cpp
+        src/wizard/pages/nopairing.h
+        src/wizard/pages/ssppairing.cpp
+        src/wizard/pages/ssppairing.h
 
     On Debian systems, the complete text of the
     GNU Library General Public License version 2 can be found in
     /usr/share/common-licenses/LGPL-2
+
+
+    Files under the GNU Lesser General Public License version 2.1 or later (LGPL-2.1+):
+
+        src/kcmodule/columnresizer.cpp
+        src/kcmodule/columnresizer.h
+
+    On Debian systems, the complete text of the
+    GNU Lesser General Public License version 2.1 can be found in
+    /usr/share/common-licenses/LGPL-2.1
 
 
     Files under the BSD license:
@@ -108,7 +137,7 @@ License:
 
 The Debian packaging is:
 
-    Copyright (C) 2010 Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+    Copyright (C) 2010-2011 Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 
 and is licensed under the GNU General Public License version 2 or later,
 see "/usr/share/common-licenses/GPL-2".
