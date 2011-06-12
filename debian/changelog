@@ -1,4 +1,4 @@
-bluedevil (1.1-1) UNRELEASED; urgency=low
+bluedevil (1.1-1) unstable; urgency=low
 
   * New upstream release. (Closes: #630135)
 
@@ -10,7 +10,7 @@ bluedevil (1.1-1) UNRELEASED; urgency=low
   * Refresh patches.
   * Update debian/copyright.
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Jun 2011 16:38:52 +0300
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Jun 2011 17:18:19 +0300
 
 bluedevil (1.0.3-1) unstable; urgency=low
 
