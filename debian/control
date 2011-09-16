@@ -14,16 +14,16 @@ Package: bluedevil
 Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}, bluez, obexd-client, obex-data-server
 Suggests: pulseaudio-module-bluetooth | bluez-alsa
-Description: The KDE Bluetooth stack
+Description: KDE Bluetooth stack
  BlueDevil is a set of components which integrate Bluetooth in KDE.
  It contains:
   * A KDE Control Module (KCM) to configure all the Bluetooth-related options.
   * Integration with the KDE input/output system (KIO), which allows you to
     discover and explore Bluetooth devices from your favorite file browser.
   * A wizard to pair your devices and connect directly to services they offer,
-    such as input (mouse, keybaord, Wiimote) and audio (headsets, phones).
+    such as input (mouse, keyboard, Wiimote) and audio (headsets, phones).
   * A system tray application from where all BlueDevil actions can be done
     (disconnect devices, send files, configure, etc...)
-  * A daemon to listen incoming petitions, for example to receive files
+  * A daemon to listen incoming requests, for example to receive files
     or to introduce a requested PIN.
 

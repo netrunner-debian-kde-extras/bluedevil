@@ -1,5 +1,7 @@
 bluedevil (1.1-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Small description fixes. (Closes: #630442)
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 16 Sep 2011 15:37:40 +0200
 
