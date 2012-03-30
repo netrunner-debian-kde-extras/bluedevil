@@ -13,6 +13,8 @@ bluedevil (1.2.2-0r1) UNRELEASED; urgency=low
     - bump debhelper build dependency to 9
     - bump compat to 9 (this also makes use of dpkg-buildflags)
     - switch to DEB_LDFLAGS_MAINT_APPEND to append our custom LDFLAGS
+  * Set the epoch in the version of the kdelibs5-dev build dependency
+    (otherwise lesser versions match).
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 16 Sep 2011 15:37:40 +0200
 
