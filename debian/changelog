@@ -5,6 +5,7 @@ bluedevil (1.2.2-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Small description fixes. (Closes: #630442)
   * Add a watch file.
+  * Bump Standards-Version to 3.9.3, no changes required.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 16 Sep 2011 15:37:40 +0200
 
