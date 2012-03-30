@@ -8,6 +8,11 @@ bluedevil (1.2.2-0r1) UNRELEASED; urgency=low
   * Add a watch file.
   * Bump Standards-Version to 3.9.3, no changes required.
   * Update lintian overrides.
+  * Bump debhelper compatibility to 9:
+    - move arguments of `dh' to pass sequence first
+    - bump debhelper build dependency to 9
+    - bump compat to 9 (this also makes use of dpkg-buildflags)
+    - switch to DEB_LDFLAGS_MAINT_APPEND to append our custom LDFLAGS
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 16 Sep 2011 15:37:40 +0200
 
