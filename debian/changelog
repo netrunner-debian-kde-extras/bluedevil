@@ -1,6 +1,6 @@
 bluedevil (1.2.2-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release. (Closes: #658313)
 
   [ Pino Toscano ]
   * Small description fixes. (Closes: #630442)
