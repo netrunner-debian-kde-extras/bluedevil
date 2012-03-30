@@ -3,6 +3,7 @@ bluedevil (1.2.2-0r1) UNRELEASED; urgency=low
   * New upstream release. (Closes: #658313)
 
   [ Pino Toscano ]
+  * Patch 01_libbluedevilaction_is_private.diff: refresh, and add more targets.
   * Small description fixes. (Closes: #630442)
   * Add a watch file.
   * Bump Standards-Version to 3.9.3, no changes required.
