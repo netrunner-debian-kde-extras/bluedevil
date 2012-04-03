@@ -1,5 +1,5 @@
 Author: George Kiagiadakis <kiagiadakis.george@gmail.com>
-Author: Pino Toscano <pino@debian.org
+Author: Pino Toscano <pino@debian.org>
 Description: Modifies CMakeLists.txt so that libbluedevilaction.so
  is installed in a subdirectory of /usr/lib, as recommended by the
  Debian policy and sets RPATH for everything that uses this library.
