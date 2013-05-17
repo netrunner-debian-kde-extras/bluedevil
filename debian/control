@@ -7,8 +7,8 @@ Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev
  kdelibs5-dev (>= 4:4.4), shared-mime-info
 Standards-Version: 3.9.3
 Homepage: https://projects.kde.org/projects/extragear/base/bluedevil
-Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/bluedevil.git
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/bluedevil.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/bluedevil.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/bluedevil.git;a=summary
 
 Package: bluedevil
 Architecture: linux-any
