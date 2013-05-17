@@ -23,7 +23,7 @@ Description: KDE Bluetooth stack
   * A wizard to pair your devices and connect directly to services they offer,
     such as input (mouse, keyboard, Wiimote) and audio (headsets, phones).
   * A system tray application from where all BlueDevil actions can be done
-    (disconnect devices, send files, configure, etc...)
-  * A daemon to listen incoming requests, for example to receive files
+    (disconnect devices, send files, configure, etc).
+  * A daemon which listens to incoming requests, for example to receive files
     or to introduce a requested PIN.
 
