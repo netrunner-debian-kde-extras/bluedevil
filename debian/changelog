@@ -6,6 +6,7 @@ bluedevil (1.3.1-0r1) UNRELEASED; urgency=low
   * Bump libbluedevil-dev build dependency to 1.9.3.
   * Fix Vcs-* headers.
   * Update copyright.
+  * Bump Standards-Version to 3.9.4, no changes required.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Fri, 17 May 2013 13:03:54 +0200
 
