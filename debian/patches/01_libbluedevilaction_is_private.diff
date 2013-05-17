@@ -5,7 +5,7 @@ Description: Modifies CMakeLists.txt so that libbluedevilaction.so
  Debian policy and sets RPATH for everything that uses this library.
  In addition, the command to install actionplugin.h is removed.
 Forwarded: not-needed
-Last-Update: 2012-03-30
+Last-Update: 2013-05-17
 
 --- a/src/actionplugins/CMakeLists.txt
 +++ b/src/actionplugins/CMakeLists.txt
@@ -16,7 +16,7 @@ Last-Update: 2012-03-30
 -install(TARGETS bluedevilaction ${INSTALL_TARGETS_DEFAULT_ARGS})
 +install(TARGETS bluedevilaction DESTINATION ${LIB_INSTALL_DIR}/bluedevil)
  install(FILES actionplugin.desktop DESTINATION ${SERVICETYPES_INSTALL_DIR})
--install(FILES actionplugin.h DESTINATION include/)
+-install(FILES actionplugin.h DESTINATION ${INCLUDE_INSTALL_DIR}/bluedevil)
 --- a/src/actionplugins/audio/CMakeLists.txt
 +++ b/src/actionplugins/audio/CMakeLists.txt
 @@ -8,6 +8,7 @@ qt4_add_dbus_interface(bluedevilaudioact
