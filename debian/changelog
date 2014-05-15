@@ -1,3 +1,16 @@
+bluedevil (2.0~rc1-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release, introducting Bluez5 support (Closes: #710129)
+    - Bump Build-Depends against libbluedevil-dev to >= 2.0~rc1
+    - Bump Depends against bluez to >= 5
+    - Drop the patch making libbluedevilaction private as it doesn't exist in
+      2.0~rc1 anymore
+  * Bump Standards-Version to 3.9.5 without changes needed
+  * Drop 5 now-unused binary-without-manpage overrides
+
+ -- Didier Raboud <odyx@debian.org>  Thu, 15 May 2014 20:21:50 +0200
+
 bluedevil (1.3.1-1) unstable; urgency=low
 
   * Team upload.
