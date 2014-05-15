@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Florian Reinhard <florian.reinhard@googlemail.com>, George Kiagiadakis <kiagiadakis.george@gmail.com>, Mark Purcell <msp@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev (>= 1.9.3),
+Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.5), cmake, libbluedevil-dev (>= 2.0~rc1),
  kdelibs5-dev (>= 4:4.4), shared-mime-info
 Standards-Version: 3.9.4
 Homepage: https://projects.kde.org/projects/extragear/base/bluedevil
@@ -12,7 +12,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/bluedevil.gi
 
 Package: bluedevil
 Architecture: linux-any
-Depends: ${shlibs:Depends}, ${misc:Depends}, bluez, obexd-client, obex-data-server
+Depends: ${shlibs:Depends}, ${misc:Depends}, bluez (>= 5), obexd-client, obex-data-server
 Suggests: pulseaudio-module-bluetooth | bluez-alsa
 Description: KDE Bluetooth stack
  BlueDevil is a set of components which integrate Bluetooth in KDE.
