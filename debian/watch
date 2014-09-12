@@ -1,3 +1,4 @@
-# Compulsory line, this is a version 3 file
 version=3
-ftp://ftp.kde.org/pub/kde/stable/bluedevil/([\d.]+)/src/bluedevil-([\d.]+).tar.bz2
+http://download.kde.org/stable/bluedevil/([\d.]+)/src/bluedevil-([\d.]+).tar.xz
+opts="uversionmangle=s/-/~/" \
+    http://download.kde.org/unstable/bluedevil/([\d.]+-rc[\d.]*)/src/bluedevil-([\d.]+-rc[\d.]*).tar.xz
