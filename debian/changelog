@@ -1,9 +1,9 @@
-bluedevil (2.0~rc1-3~) UNRELEASED; urgency=medium
+bluedevil (2.0~rc1-3) unstable; urgency=medium
 
   * Change dependencies to bluez-obexd | obexd-client. (Closes: #760924)
     Thanks to 石頭成
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 18:29:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 22:34:49 +0200
 
 bluedevil (2.0~rc1-2) unstable; urgency=medium
 
