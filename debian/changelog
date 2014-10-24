@@ -1,3 +1,11 @@
+bluedevil (2.0~rc1-44-gb7697a7-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream snapshot
+    - Bump Build-Depends on libbluedevil-dev to 2.0~rc1-6-g7bb223c
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 24 Oct 2014 08:20:27 +0200
+
 bluedevil (2.0~rc1-3) unstable; urgency=medium
 
   * Change dependencies to bluez-obexd | obexd-client. (Closes: #760924)
