@@ -1,3 +1,10 @@
+bluedevil (2.0~rc1-44-gb7697a7-3) unstable; urgency=medium
+
+  * Team upload.
+  * Correct depends on bluez-obexd (Closes: #771116, #771293)
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 30 Nov 2014 17:52:59 -0500
+
 bluedevil (2.0~rc1-44-gb7697a7-2) unstable; urgency=medium
 
   * Team upload to unstable

@@ -21,7 +21,7 @@ Package: bluedevil
 Architecture: linux-any
 Depends: bluez (>= 5),
          obex-data-server,
-         bluez-obezd | obexd-client,
+         bluez-obexd,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: pulseaudio-module-bluetooth | bluez-alsa
