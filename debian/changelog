@@ -1,3 +1,9 @@
+bluedevil (2.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Sat, 27 Dec 2014 14:51:32 +0100
+
 bluedevil (2.0~rc1-44-gb7697a7-3) unstable; urgency=medium
 
   * Team upload.
